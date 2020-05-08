@@ -296,14 +296,7 @@ const yCentre = 1000;
 const svg = d3.select('#sunSystem')
                 .style('height','95vh')
                 .style('width','100vw')
-                .on("click", () => {
-                    if(d3.event.target.localName == 'svg')
-                    {
-                        hiddenInfo()
-                        DATA.corps.forEach(d => hiddenPlanet(d))
-                        DATA.corps.forEach(d => d.flag = 0)
-                    }
-                })
+                .on("click", () => hiddenClick(d3.event.target.localName))
 
 
 const planet = svg.selectAll('g')
@@ -539,7 +532,16 @@ let clickDistance = (d) => {
 
 }
 
+let hiddenClick = (local) => {
 
+    if(local == 'svg')
+    {
+        hiddenInfo()
+        DATA.corps.forEach(d => hiddenPlanet(d))
+        DATA.corps.forEach(d => d.flag = 0)
+        flagAll = 0
+    }
+}
 
 
 
@@ -557,106 +559,56 @@ menu.selectAll('button')
     .on("mouseout", d =>{if(!d.flag) {hiddenPlanet(d)}})
     .on("click", d => {if(flagHiddenMenu) {clickPlanet(d)} else {clickDistance(d)}})
 
-    
+    /**
     d3.select('nav .distance')
-    .on("click", () => showDistance())
+    .on("click", () => showPage(d3.event.target.className))
 
-    d3.select('nav .systeme')
-    .on("click", () => showSystem())
+    d3.select('nav .sunSystem')
+    .on("click", () => showPage(d3.event.target.className))
 
-    d3.select('nav .volume')
-    .on("click", () => showVolume())
+    */
+
+    d3.selectAll('nav > button')
+    .on("click", () => showPage(d3.event.target.className))
 
    
-let showDistance = () => {
+let showPage = className => {
+
+        console.log(className)
    
-    d3.select('svg#sunSystem')
+    d3.selectAll('svg.page')
             .transition()
             .duration(1000)
             .style('height','0vh')
             .style('width','0vm')
 
-    d3.select('svg#volume')
-            .transition()
-            .duration(1000)
-            .style('height','0vh')
-            .style('width','0vm')
    
-   d3.select('svg#distance')
+   d3.select(`svg#${className}`)
             .transition()
             .duration(1000)
             .style('height','95vh')
             .style('width','100vw')
 
-    flagHiddenMenu = 0
+     if(className == 'sunSystem')
+     {
+        DATA.corps.forEach(d => {
 
-    hiddenInfo()
+                if(d.flag)
+                {
+                    infoPlanete(d)
+                }                    
+             });
+        
+        flagHiddenMenu = 1  
+     }
+     else
+     {
+        flagHiddenMenu = 0
 
+        hiddenInfo() 
+     }
 }
 
-let showSystem = () => {
-
-    d3.select('svg#distance')
-            .transition()
-            .duration(1000)
-            .style('height','0vh')
-            .style('width','0vm')
-
-    d3.select('svg#volume')
-            .transition()
-            .duration(1000)
-            .style('height','0vh')
-            .style('width','0vm')
-   
-   d3.select('svg#sunSystem')
-            .transition()
-            .duration(1000)
-            .style('height','95vh')
-            .style('width','100vw')
-
-
-    DATA.corps.forEach(d => {
-
-        if(d.flag)
-        {
-            infoPlanete(d)
-        }                    
-     });
-
-    flagHiddenMenu = 1
-
-    
-
-}
-
-
-let showVolume = () => {
-
-    d3.select('svg#distance')
-            .transition()
-            .duration(1000)
-            .style('height','0vh')
-            .style('width','0vm')
-
-    d3.select('svg#sunSystem')
-            .transition()
-            .duration(1000)
-            .style('height','0vh')
-            .style('width','0vm')
-   
-   d3.select('svg#volume')
-            .transition()
-            .duration(1000)
-            .style('height','95vh')
-            .style('width','100vw')
-
-    flagHiddenMenu = 0
-
-    hiddenInfo()
-
-}
-
- 
 
 let flagAll = 0
 
@@ -691,7 +643,7 @@ let clickAll = () => {
         DATA.corps.forEach( d => {
 
             hiddenPlanet(d)
-            d.flag = 1
+            d.flag = 0
         })
     }    
 
@@ -828,14 +780,7 @@ const distanceMAX = 1900000
    let distance = d3.select('#distance')
             .style('height','95vh')
             .style('width','100vw')
-            .on("click", () => {
-                if(d3.event.target.localName == 'svg')
-                {
-                    hiddenInfo()
-                    DATA.corps.forEach(d => hiddenPlanet(d))
-                    DATA.corps.forEach(d => d.flag = 0)
-                }
-            })
+            .on("click", () => hiddenClick(d3.event.target.localName))
             .selectAll('g')
             .data(DATA.corps)
             .enter()
@@ -925,14 +870,7 @@ const volumeMAX = 1000
    let volume = d3.select('#volume')
             .style('height','95vh')
             .style('width','100vw')
-            .on("click", () => {
-                if(d3.event.target.localName == 'svg')
-                {
-                    hiddenInfo()
-                    DATA.corps.forEach(d => hiddenPlanet(d))
-                    DATA.corps.forEach(d => d.flag = 0)
-                }
-            })
+            .on("click", () => hiddenClick(d3.event.target.localName))
             .selectAll('g')
             .data(DATA.corps)
             .enter()
@@ -991,7 +929,7 @@ const volumeMAX = 1000
 
             d3.selectAll('#volume g.sun text')
             .attr('x',-xMargin - 220)
-            .attr('y',(d,i) => i*100 +1000)
+            .attr('y',(d,i) => i*100 + 1000)
 
             d3.select('#volume g.sun circle.orbitesun')
             .remove()
