@@ -1,0 +1,60 @@
+body {
+    position: fixed;
+    margin: 0px;
+    background-color: black;
+}
+
+
+svg {
+    align-content: center;
+    height: 95vh;
+    width: 100vw;
+}
+
+#sun:hover {
+    fill: #d8345f;
+}
+
+.info {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    height: auto;
+    width: auto;
+    background-color:#333;
+    box-shadow: 1px 1px 5px #555;
+    border-radius: 10px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    visibility: hidden;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav button {
+    color: white;
+    background-color: #333;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+}
+
+
+svg#logo {
+    width: 50px;
+    height: 50px;
+}
+
