@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Original Futur</title>
-    <link>https://adriward.github.io/</link>
+    <link>https://adriward.github.io/blog/</link>
     <description>Recent content on Original Futur</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Nov 2020 02:28:23 +0100</lastBuildDate><atom:link href="https://adriward.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Nov 2020 02:28:23 +0100</lastBuildDate><atom:link href="https://adriward.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Un modem pour le futur internet quantique</title>
-      <link>https://adriward.github.io/posts/modem-quantique/</link>
+      <link>https://adriward.github.io/blog/posts/modem-quantique/</link>
       <pubDate>Wed, 25 Nov 2020 02:28:23 +0100</pubDate>
       
-      <guid>https://adriward.github.io/posts/modem-quantique/</guid>
+      <guid>https://adriward.github.io/blog/posts/modem-quantique/</guid>
       <description>Des scientifiques de l’institut Max-Planck situé en Allemagne ont conçu le tout premier « modem » quantique.
 La miniaturisation des composants des microprocesseurs va certainement atteindre leur limite d’ici quelque année ; à petite échelle les transistors subirait les effet de la physique quantique (physique de l’infiniment petit), le célèbre physicien Richard Feynman suggéra d’utilisé ses effets quantique plutôt que de les subir, ce qui donna le nouveau champs en informatique : l’informatique quantique</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://adriward.github.io/posts/test/</link>
+      <link>https://adriward.github.io/blog/posts/test/</link>
       <pubDate>Wed, 25 Nov 2020 00:50:37 +0100</pubDate>
       
-      <guid>https://adriward.github.io/posts/test/</guid>
+      <guid>https://adriward.github.io/blog/posts/test/</guid>
       <description>test </description>
     </item>
     
