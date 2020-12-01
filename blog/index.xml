@@ -5,7 +5,18 @@
     <link>https://adriward.github.io/blog/</link>
     <description>Recent content on Original Futur</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Nov 2020 02:28:23 +0100</lastBuildDate><atom:link href="https://adriward.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Dec 2020 02:28:23 +0100</lastBuildDate><atom:link href="https://adriward.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les ondes ambiantes transformé en électricité grâce au graphène</title>
+      <link>https://adriward.github.io/blog/posts/onde-ambiante/</link>
+      <pubDate>Tue, 01 Dec 2020 02:28:23 +0100</pubDate>
+      
+      <guid>https://adriward.github.io/blog/posts/onde-ambiante/</guid>
+      <description>Des physiciens du MIT ont proposé un dispositif composé de graphène pour capturer les ondes électromagnétiques ambiante.
+De nombreux appareils du quotidien émettent des ondes électromagnétiques, une énergie inexploitée que des physiciens et ingénieurs ont cherché à capter pour créer une source d’électricité omniprésente.
+L’idée n’est pas nouvelle, en 2012 le designer allemand Dennis Siegel avait créé un chargeur de piles grâce aux ondes ambiantes. Aussi différente initiative comme Freeport, développé par Drayson Technologie et l’Imperial Collage London ou encore l’entreprise française K3OPS.</description>
+    </item>
+    
     <item>
       <title>Un modem pour le futur internet quantique</title>
       <link>https://adriward.github.io/blog/posts/modem-quantique/</link>
