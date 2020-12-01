@@ -27,14 +27,5 @@ L’idée n’est pas nouvelle, en 2012 le designer allemand Dennis Siegel avait
 La miniaturisation des composants des microprocesseurs va certainement atteindre leur limite d’ici quelque année ; à petite échelle les transistors subirait les effet de la physique quantique (physique de l’infiniment petit), le célèbre physicien Richard Feynman suggéra d’utilisé ses effets quantique plutôt que de les subir, ce qui donna le nouveau champs en informatique : l’informatique quantique</description>
     </item>
     
-    <item>
-      <title>Test</title>
-      <link>https://adriward.github.io/blog/posts/test/</link>
-      <pubDate>Wed, 25 Nov 2020 00:50:37 +0100</pubDate>
-      
-      <guid>https://adriward.github.io/blog/posts/test/</guid>
-      <description>test </description>
-    </item>
-    
   </channel>
 </rss>
