@@ -5,16 +5,60 @@
     <link>https://adriward.github.io/blog/</link>
     <description>Recent content on Original Futur</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Dec 2020 02:28:23 +0100</lastBuildDate><atom:link href="https://adriward.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Dec 2020 02:45:58 +0100</lastBuildDate><atom:link href="https://adriward.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Propos</title>
+      <link>https://adriward.github.io/blog/a-propos/</link>
+      <pubDate>Tue, 22 Dec 2020 20:35:23 +0100</pubDate>
+      
+      <guid>https://adriward.github.io/blog/a-propos/</guid>
+      <description>Thème du blog Il existe énormément de blog ou de webjournal qui présentent l&amp;rsquo;actualité des technologies et les innovation émergentes. Mais il manque parfois une vision à long terme, ce qui est important pour moi.
+Savoir quel framwork Javascript apprendre est complétement différent que de savoir si le javascript sera encore utilisé dans 10 ans. Je pense qu&amp;rsquo;un bon ingénieur doit veiller à la technologie de demain, mais aussi l&amp;rsquo;évolution d&amp;rsquo;après demain.</description>
+    </item>
+    
+    <item>
+      <title>Création d&#39;un Jeux vidéo Avec Unity</title>
+      <link>https://adriward.github.io/blog/posts/test-avec-unity/</link>
+      <pubDate>Tue, 22 Dec 2020 02:45:58 +0100</pubDate>
+      
+      <guid>https://adriward.github.io/blog/posts/test-avec-unity/</guid>
+      <description>j&amp;rsquo;ai testé la création d&amp;rsquo;un jeux vidéo avec le moteur Unity.
+Pourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j&amp;rsquo;ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de firmware sur microcontrôleur, avant que je vienne l&amp;rsquo;enrichie avec le développement web.
+Si les langages de programmation se ressemble, le reste est complétement différent, l&amp;rsquo;architecture du code, l&amp;rsquo;optimisation recherché ou même les paradigmes.</description>
+    </item>
+    
+    <item>
+      <title>Une nouvelle technique d&#39;imagerie par laser infrarouge</title>
+      <link>https://adriward.github.io/blog/posts/nouvelle-technique-imagerie/</link>
+      <pubDate>Sun, 20 Dec 2020 01:25:33 +0100</pubDate>
+      
+      <guid>https://adriward.github.io/blog/posts/nouvelle-technique-imagerie/</guid>
+      <description>Des physiciens de l&amp;rsquo;Université de Corée du Sud ont créé une nouvelle technique d&amp;rsquo;imagerie médicale appelé LS-RMM
+Des physiciens ont créé une nouvelle méthode permettant de créer une image claire à partir de laser à infrarouge.
+La technologie nommé LS-RMM ou microscopie matricielle à réflexion laser serait beaucoup plus précise et permettrait de voir les structures osseuses, ce que d&amp;rsquo;autres techniques ne peuvent faire actuellement.
+L&amp;rsquo;imagerie médicale L&amp;rsquo;imagerie médicale permet de restituer l&amp;rsquo;intérieur d&amp;rsquo;un corps humain à l&amp;rsquo;aide de phénomène physique.</description>
+    </item>
+    
     <item>
       <title>Les ondes ambiantes transformé en électricité grâce au graphène</title>
       <link>https://adriward.github.io/blog/posts/onde-ambiante/</link>
       <pubDate>Tue, 01 Dec 2020 02:28:23 +0100</pubDate>
       
       <guid>https://adriward.github.io/blog/posts/onde-ambiante/</guid>
-      <description>Des physiciens du MIT ont proposé un dispositif composé de graphène pour capturer les ondes électromagnétiques ambiante.
+      <description>Des physiciens du MIT ont proposé un dispositif composé de graphènes pour capturer les ondes électromagnétiques ambiantes.
 De nombreux appareils du quotidien émettent des ondes électromagnétiques, une énergie inexploitée que des physiciens et ingénieurs ont cherché à capter pour créer une source d’électricité omniprésente.
-L’idée n’est pas nouvelle, en 2012 le designer allemand Dennis Siegel avait créé un chargeur de piles grâce aux ondes ambiantes. Aussi différente initiative comme Freeport, développé par Drayson Technologie et l’Imperial Collage London ou encore l’entreprise française K3OPS.</description>
+L’idée n’est pas nouvelle. En 2012, le designer allemand Dennis Siegel a créé un chargeur de piles grâce aux ondes ambiantes. Une initiative différente comme Freeport, développé par Drayson Technologie et l’Imperial Collage London ou encore l’entreprise française K3OPS.</description>
+    </item>
+    
+    <item>
+      <title>Qui est l&#39;inventeur de l&#39;ampoule ?</title>
+      <link>https://adriward.github.io/blog/posts/inventeur-de-l-ampoule/</link>
+      <pubDate>Sat, 28 Nov 2020 22:30:31 +0100</pubDate>
+      
+      <guid>https://adriward.github.io/blog/posts/inventeur-de-l-ampoule/</guid>
+      <description>Dans cette article nous allons parler d&amp;rsquo;histoire. Celle de l&amp;rsquo;ampoule et comment une nouvelle technologie émerge
+L&amp;rsquo;histoire de l&amp;rsquo;ampoule électrique En observant des fibres d&amp;rsquo;un morceau de bambou, jeté au feu, brillant sans se désintégrer, Thoma Edison a l&amp;rsquo;idée d&amp;rsquo;utiliser un filament fortement chauffé par un courant électrique à l&amp;rsquo;intérieur d&amp;rsquo;une ampoule hermétique. Ceci deviendra l&#39;ampoule éléctrique.
+Par cette histoire, Thomas Edison est connu comme l&amp;rsquo;inventeur de l&amp;rsquo;ampoule. Mais ce que peu de personne connaisse c&amp;rsquo;est la suite : en allant poser son brevet, Thomas Edison se rend compte que l&amp;rsquo;invention existe déjà!</description>
     </item>
     
     <item>
@@ -24,7 +68,7 @@ L’idée n’est pas nouvelle, en 2012 le designer allemand Dennis Siegel avait
       
       <guid>https://adriward.github.io/blog/posts/modem-quantique/</guid>
       <description>Des scientifiques de l’institut Max-Planck situé en Allemagne ont conçu le tout premier « modem » quantique.
-La miniaturisation des composants des microprocesseurs va certainement atteindre leur limite d’ici quelque année ; à petite échelle les transistors subirait les effet de la physique quantique (physique de l’infiniment petit), le célèbre physicien Richard Feynman suggéra d’utilisé ses effets quantique plutôt que de les subir, ce qui donna le nouveau champs en informatique : l’informatique quantique</description>
+La miniaturisation des composants des microprocesseurs va certainement atteindre leur limite d’ici quelques années ; à petite échelle, les transistors subiraient les effets de la physique quantique (physique de l’infiniment petit). Le célèbre physicien Richard Feynman suggéra d’utiliser ses effets quantiques plutôt que de les subir, ce qui donna le nouveau champs en informatique : l’informatique quantique.</description>
     </item>
     
   </channel>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Création d&#39;un Jeux vidéo Avec Unity | Original Futur</title>
+
+<meta name="keywords" content="" />
+<meta name="description" content="j&rsquo;ai testé la création d&rsquo;un jeux vidéo avec le moteur Unity.
+Pourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j&rsquo;ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de firmware sur microcontrôleur, avant que je vienne l&rsquo;enrichie avec le développement web.
+Si les langages de programmation se ressemble, le reste est complétement différent, l&rsquo;architecture du code, l&rsquo;optimisation recherché ou même les paradigmes.">
+<meta name="author" content="Adrien">
+<link rel="canonical" href="https://adriward.github.io/blog/posts/test-avec-unity/" />
+<link href="https://adriward.github.io/blog/assets/css/stylesheet.min.06dcab22093156f8a08872c23ce7ee2a8234185d3c84741f7b0ce0c78df475b8.css" integrity="sha256-BtyrIgkxVvigiHLCPOfuKoI0GF08hHQfewzgx430dbg=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="16x16" href="https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E">
+<link rel="apple-touch-icon" href="https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E">
+<link rel="mask-icon" href="https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.78.1" />
+
+
+<meta property="og:title" content="Création d&#39;un Jeux vidéo Avec Unity" />
+<meta property="og:description" content="j&rsquo;ai testé la création d&rsquo;un jeux vidéo avec le moteur Unity.
+Pourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j&rsquo;ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de firmware sur microcontrôleur, avant que je vienne l&rsquo;enrichie avec le développement web.
+Si les langages de programmation se ressemble, le reste est complétement différent, l&rsquo;architecture du code, l&rsquo;optimisation recherché ou même les paradigmes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adriward.github.io/blog/posts/test-avec-unity/" />
+<meta property="og:image" content="https://adriward.github.io/blog/60"/>
+<meta property="article:published_time" content="2020-12-22T02:45:58+01:00" />
+<meta property="article:modified_time" content="2020-12-22T02:45:58+01:00" /><meta property="og:site_name" content="Original Futur" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://adriward.github.io/blog/60"/>
+
+<meta name="twitter:title" content="Création d&#39;un Jeux vidéo Avec Unity"/>
+<meta name="twitter:description" content="j&rsquo;ai testé la création d&rsquo;un jeux vidéo avec le moteur Unity.
+Pourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j&rsquo;ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de firmware sur microcontrôleur, avant que je vienne l&rsquo;enrichie avec le développement web.
+Si les langages de programmation se ressemble, le reste est complétement différent, l&rsquo;architecture du code, l&rsquo;optimisation recherché ou même les paradigmes."/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Création d'un Jeux vidéo Avec Unity",
+  "name": "Création d\u0027un Jeux vidéo Avec Unity",
+  "description": "j\u0026amp;rsquo;ai testé la création d\u0026amp;rsquo;un jeux vidéo avec le moteur Unity.\nPourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j\u0026amp;rsquo;ai été diplômé ES …",
+  "keywords": [
+    
+  ],
+  "articleBody": "j’ai testé la création d’un jeux vidéo avec le moteur Unity.\nPourquoi les jeux vidéo Avant de commencer ma formation en ingénierie des médias, j’ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de firmware sur microcontrôleur, avant que je vienne l’enrichie avec le développement web.\nSi les langages de programmation se ressemble, le reste est complétement différent, l’architecture du code, l’optimisation recherché ou même les paradigmes.\nMais je pense que l’un enrichie l’autre, par exemple, en langage C (pour les microcontrôleur) il n’y pas d’orienté objet, mais on organise le code vers une structure qui s’en rapproche.\nDans cette optique il est important d’étudier d’autres domaines.\nLes jeux vidéo ont beaucoup évolué, il sont développé sur plusieurs plateforme, doivent avoir une grande interactivité avec le joueur et les joueurs doivent interagir entre eux en temps réelle.\nMon test de développement de jeux vidéo J’ai décidé de développer un petit jeu vidéo 2D platform (comme super mario bross).\nj’ai choisie de tester Unity, qui est le moteur le plus utilisé, il faut savoir le langage C# pour pouvoir programmer un jeu, de plus Unity utilise des objet propre à son moteur que j’ai dû apprendre avant de commencer.\nJ’ai suivie un tutoriel sur la création d’un jeu 2D sur Youtube.\nRetour sur le test En amont la création d’un jeux vidéo n’est pas si différent d’une application web. Il faut définir les interactions, le graphisme puis le développement logiciel.\nmais les interactions ne sont pas les mêmes, le graphisme non plus et en programmation ce sont les composant qui change, on pas un bouton mais un personnage. Globalement créer un jeux demande plus de travail, il y a beaucoup plus de contrainte, par exemple créer une animation seulement quand le personnage cours.\nQue retenir du monde du jeux vidéo ? ce qui ma le plus marqué est le moteur Unity en lui même, tous est fait pour facilité le travaille du développer, il y a une interface graphique qui est simple à utiliser, mais on peut facilement créer un scripte et codé notre jeux. cela allie simplicité et flexibilité.\nun framework semblable à Unity mais pour le développement Front-end pourrait être très intéressant.\nconclusion le moteur de jeux Unity a une approche très intéressante d’allié son interface graphique avec les script C#.\nil serait possible que dans le futur un framework pour professionnel dans le même esprit soit créer pour le développement web. La création application toujours plus rapide et le travaille de multi collaborateurs sur un projet pourrait favorisé ce genre d’outils.\n",
+  "wordCount" : "428",
+  "inLanguage": "en",
+  "datePublished": "2020-12-22T02:45:58+01:00",
+  "dateModified": "2020-12-22T02:45:58+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "Adrien"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://adriward.github.io/blog/posts/test-avec-unity/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Original Futur",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://adriward.github.io/blog/%3Clink%20/%20abs%20url%3E"
+    }
+  }
+}
+</script>
+
+
+
+</head>
+
+<body class="single" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        .theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://adriward.github.io/blog" accesskey="h">Original Futur</a>
+            <span class="logo-switches">
+                <span class="theme-toggle">
+                    <a id="theme-toggle" accesskey="t">
+                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                    </a>
+                </span>
+                
+            </span>
+        </div>
+        <ul class="menu" id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://adriward.github.io/blog/a-propos/">
+                    <span>
+                        A Propos
+                    </span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">
+      Création d&#39;un Jeux vidéo Avec Unity
+    </h1>
+    <div class="post-meta">
+
+December 22, 2020&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Adrien
+
+    </div>
+  </header> 
+
+  <div class="post-content">
+<p><strong>j&rsquo;ai testé la création d&rsquo;un jeux vidéo avec le moteur Unity.</strong></p>
+<h3 id="pourquoi-les-jeux-vidéo">Pourquoi les jeux vidéo<a hidden class="anchor" aria-hidden="true" href="#pourquoi-les-jeux-vidéo">#</a></h3>
+<p>Avant de commencer ma formation en ingénierie des médias, j&rsquo;ai été diplômé ES en électronique. Mes principales compétences de programmation était le développement de <em>firmware</em> sur microcontrôleur, avant que je vienne l&rsquo;enrichie avec le développement web.</p>
+<p>Si les langages de programmation se ressemble, le reste est complétement différent, l&rsquo;architecture du code, l&rsquo;optimisation recherché ou même les paradigmes.</p>
+<p>Mais je pense que l&rsquo;un enrichie l&rsquo;autre, par exemple, en langage C (pour les microcontrôleur) il n&rsquo;y pas d&rsquo;orienté objet, mais on organise le code vers une structure qui s&rsquo;en rapproche.</p>
+<p>Dans cette optique il est important d&rsquo;étudier d&rsquo;autres domaines.</p>
+<p>Les jeux vidéo ont beaucoup évolué, il sont développé sur plusieurs plateforme, doivent avoir une grande interactivité avec le joueur et les joueurs doivent interagir entre eux en temps réelle.</p>
+<h3 id="mon-test-de-développement-de-jeux-vidéo">Mon test de développement de jeux vidéo<a hidden class="anchor" aria-hidden="true" href="#mon-test-de-développement-de-jeux-vidéo">#</a></h3>
+<p>J&rsquo;ai décidé de développer un petit jeu vidéo 2D platform (comme super mario bross).</p>
+<p>j&rsquo;ai choisie de tester <strong>Unity</strong>, qui est le moteur le plus utilisé, il faut savoir le langage C# pour pouvoir programmer un jeu, de plus Unity utilise des objet propre à son moteur que j&rsquo;ai dû apprendre avant de commencer.</p>
+<p>J&rsquo;ai suivie un tutoriel sur la création d&rsquo;un jeu 2D sur Youtube.</p>
+<h3 id="retour-sur-le-test">Retour sur le test<a hidden class="anchor" aria-hidden="true" href="#retour-sur-le-test">#</a></h3>
+<p>En amont la création d&rsquo;un jeux vidéo n&rsquo;est pas si différent d&rsquo;une application web. Il faut définir les interactions, le graphisme puis le développement logiciel.</p>
+<p>mais les interactions ne sont pas les mêmes, le graphisme non plus et en programmation ce sont les composant qui change, on pas un bouton mais un personnage. Globalement créer un jeux demande plus de travail, il y a beaucoup plus de contrainte, par exemple créer une animation <strong>seulement</strong> quand le personnage cours.</p>
+<h3 id="que-retenir-du-monde-du-jeux-vidéo-">Que retenir du monde du jeux vidéo ?<a hidden class="anchor" aria-hidden="true" href="#que-retenir-du-monde-du-jeux-vidéo-">#</a></h3>
+<p>ce qui ma le plus marqué est le moteur <strong>Unity</strong> en lui même, tous est fait pour facilité le travaille du développer, il y a une interface graphique qui est simple à utiliser, mais on peut facilement créer un scripte et codé notre jeux. cela allie simplicité et flexibilité.</p>
+<p>un framework semblable à Unity mais pour le développement Front-end pourrait être très intéressant.</p>
+<h3 id="conclusion">conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h3>
+<p>le moteur de jeux Unity a une approche très intéressante d&rsquo;allié son interface graphique avec les script C#.</p>
+<p>il serait possible que dans le futur un framework pour professionnel dans le même esprit soit créer pour le développement web. La création application toujours plus rapide et le travaille de multi collaborateurs sur un projet pourrait favorisé ce genre d&rsquo;outils.</p>
+
+</div>
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2020 <a href="https://adriward.github.io/blog">Original Futur</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top" accesskey="g">
+    <button class="top-link" id="top-link" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+            <path d="M12 6H0l6-6z" /></svg>
+    </button>
+</a>
+
+
+
+<script defer src="https://adriward.github.io/blog/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

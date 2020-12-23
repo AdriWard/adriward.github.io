@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://adriward.github.io/blog/a-propos/</loc>
+    <lastmod>2020-12-22T20:35:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adriward.github.io/blog/posts/test-avec-unity/</loc>
+    <lastmod>2020-12-22T02:45:58+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adriward.github.io/blog/posts/nouvelle-technique-imagerie/</loc>
+    <lastmod>2020-12-20T01:25:33+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://adriward.github.io/blog/posts/onde-ambiante/</loc>
     <lastmod>2020-12-01T02:28:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adriward.github.io/blog/posts/inventeur-de-l-ampoule/</loc>
+    <lastmod>2020-11-28T22:30:31+01:00</lastmod>
   </url>
   
   <url>
@@ -14,12 +34,12 @@
   
   <url>
     <loc>https://adriward.github.io/blog/</loc>
-    <lastmod>2020-12-01T02:28:23+01:00</lastmod>
+    <lastmod>2020-12-22T02:45:58+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://adriward.github.io/blog/posts/</loc>
-    <lastmod>2020-12-01T02:28:23+01:00</lastmod>
+    <lastmod>2020-12-22T02:45:58+01:00</lastmod>
   </url>
   
   <url>
